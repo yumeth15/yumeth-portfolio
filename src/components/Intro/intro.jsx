@@ -1,5 +1,5 @@
 import "./intro.css";
-import heroBg from "../../assets/bg.png";
+import heroBg from "../../assets/bg1.png";
 
 const Intro = () => {
   const scrollTo = (href) => {
@@ -19,7 +19,7 @@ const Intro = () => {
           </div>
 
           <h1 className="heroTitle">
-        <span className="name">Yumeth Nethdula </span>
+        <span className="name">Yumeth  </span>
           </h1>
 
           <h2 className="heroSubtitle">Software Engineering Undergraduate</h2>
