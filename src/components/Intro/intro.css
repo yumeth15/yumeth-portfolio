@@ -38,7 +38,7 @@
 
 .heroImage {
   width: 100%;
-  max-width:750px;
+  max-width: 750px;
   height: auto;
   object-fit: contain;
   opacity: 0;
@@ -74,7 +74,6 @@
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-30px); }
 }
-
 
 .heroTag {
   display: inline-flex;
@@ -228,10 +227,13 @@
   50% { transform: translateY(10px); }
 }
 
+/* Tablet and small laptop */
 @media (max-width: 968px) {
   .introContainer {
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
   }
 
@@ -242,6 +244,12 @@
 
   .introRight {
     justify-content: center;
+    padding-left: 0;        /* removed large left padding on mobile */
+  }
+
+  .heroDescription {
+    margin: 0 0 2rem;       /* simpler margin for small screens */
+    max-width: 100%;        /* use full width */
   }
 
   .heroImage {
@@ -253,17 +261,18 @@
   }
 }
 
+/* Phone sizes */
 @media (max-width: 768px) {
   .introContainer {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
-  
+
   .heroButtons {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;    /* full-width buttons look cleaner */
   }
 
   .heroImage {
-    max-width: 400px;
+    max-width: 320px;
   }
 }

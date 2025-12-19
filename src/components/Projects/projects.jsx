@@ -1,7 +1,7 @@
 import "./projects.css";
 import projectCareer from "../../assets/careerbuddy.png";
 import projectWeather from "../../assets/weather.png";
-import projectFullstack from "../../assets/fullstack.png";
+import projectTravel from "../../assets/travel.jpg";
 
 const projects = [
   {
@@ -21,10 +21,11 @@ const projects = [
   {
     title: "Full-Stack Dashboard",
     description:
-      "A full-stack app using Supabase for authentication and a clean UX layer for real-world tasks.",
-    image: projectFullstack,
+      "Explore amazing destinations, plan perfect trips, and create unforgettable memories with personalized guides and inspiring travel experiences",
+    image: projectTravel,
     tags: ["React", "Supabase", "TypeScript"],
   },
+  
 ];
 
 const Projects = () => {

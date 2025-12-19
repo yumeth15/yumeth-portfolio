@@ -3,7 +3,7 @@ import "./NavBar.css";
 
 const navItems = [
   { name: "Home", href: "#intro" },
-  { name: "About", href: "#skills" },
+  { name: "About", href: "#Skills" },
   { name: "Projects", href: "#projects" },
 ];
 
